@@ -1,137 +1,136 @@
 #site {
-    max-width:1400px;
-    height:520px;
-    margin: 0px;
-    background-color: transparent;
+  max-width: 1400px;
+  height: 520px;
+  margin: 0px;
+  background-color: transparent;
 }
 
-#header{
-    width:100%;
-    height:100px;
-    background-color:#6FBFB7;
-    color: white;
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: #6fbfb7;
+  color: white;
 }
 
-#header ul li{
-    list-style: none;
-    display: inline;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 50px;
-    margin-top: 40px;
-    float: right;
+#header ul li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-top: 40px;
+  float: right;
 }
 
-#conteudo{
-    width:100%;
-    height:100%;
-    background-color:#F2f2f2;  
-} 
-  
-#conteudo-left{
-    width:50%;
-    height:100%;
-    float:left;
-    position: relative;
-    background-color:#F2C641;
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: bottom, center;
-    
+#conteudo {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
 }
-  #conteudo-right{
-    width:50%;
-    height:100%;
-    float:left;
-    background-color:#F29544;
+
+#conteudo-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  background-color: #f2c641;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+}
+#conteudo-right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #f29544;
 }
 
 #back2 {
-    width:500px;
-    height:450px;
-    position: absolute;
-    background-color:#F4D07C;
-    border-radius: 120px 200px 0px 0px;
-    top: 70px;
-    left: 70px;
+  width: 500px;
+  height: 450px;
+  position: absolute;
+  background-color: #f4d07c;
+  border-radius: 120px 200px 0px 0px;
+  top: 70px;
+  left: 70px;
 }
 
 #bubble-title {
-    width: 255px;
-    height: 255px;
-    position: absolute;
-    border-radius: 155px 90px 90px 90px;
-    background-color: #6CBFB7;
-    top: 10px;
-    left: 30px;
-    transform: rotate(15deg);
+  width: 255px;
+  height: 255px;
+  position: absolute;
+  border-radius: 155px 90px 90px 90px;
+  background-color: #6cbfb7;
+  top: 10px;
+  left: 30px;
+  transform: rotate(15deg);
 }
 
 #bubble1 {
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    border-radius: 155px 90px 90px 90px;
-    background-color: #F29544;
-    top: 60px;
-    left: 330px;
-    transform: rotate(-120deg);
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  border-radius: 155px 90px 90px 90px;
+  background-color: #f29544;
+  top: 60px;
+  left: 330px;
+  transform: rotate(-120deg);
 }
 
 #bubble2 {
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    border-radius: 155px 90px 90px 90px;
-    background-color: #F29544;
-    top: 40px;
-    left: 300px;
-    transform: rotate(-50deg);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 155px 90px 90px 90px;
+  background-color: #f29544;
+  top: 40px;
+  left: 300px;
+  transform: rotate(-50deg);
 }
 
 #bubble3 {
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    border-radius: 205px 90px 90px 90px;
-    background-color: #F4D07C;
-    top: 90px;
-    left: 520px;
-    transform: rotate(-110deg);
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  border-radius: 205px 90px 90px 90px;
+  background-color: #f4d07c;
+  top: 90px;
+  left: 520px;
+  transform: rotate(-110deg);
 }
 
 #box-title {
-    position: absolute;
-    text-align: center;
-    font-size: 95px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    left: 25px;
-    letter-spacing: normal;
-    letter-spacing: -8px;
-    text-indent: 50px;
-    line-height: 70px;
-    color: #F2f2f2;
+  position: absolute;
+  text-align: center;
+  font-size: 95px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  left: 25px;
+  letter-spacing: normal;
+  letter-spacing: -8px;
+  text-indent: 50px;
+  line-height: 70px;
+  color: #f2f2f2;
 }
 
 #box-title-shade {
-    position: absolute;
-    text-align: center;
-    font-size: 95px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    left: 20px;
-    top: 3px;
-    letter-spacing: -8px;
-    text-indent: 50px;
-    line-height: 70px;
-    color: #F29544;
+  position: absolute;
+  text-align: center;
+  font-size: 95px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  left: 20px;
+  top: 3px;
+  letter-spacing: -8px;
+  text-indent: 50px;
+  line-height: 70px;
+  color: #f29544;
 }
 
 #box-title-shade a {
-    text-decoration: none;
-    list-style: none;
-    color: #F29544;
+  text-decoration: none;
+  list-style: none;
+  color: #f29544;
 }
 
 #box-title-shade a:hover {
-    color: #F4D07C;
+  color: #f4d07c;
 }
