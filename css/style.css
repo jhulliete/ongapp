@@ -2,7 +2,7 @@
     max-width:1400px;
     height:520px;
     margin: 0px;
-    background-color: #666;
+    background-color: transparent;
 }
 
 #header{
@@ -32,8 +32,8 @@
     width:50%;
     height:100%;
     float:left;
+    position: relative;
     background-color:#F2C641;
-    background-image: url("../imagens/ong-page.png");
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: bottom, center;
@@ -44,4 +44,94 @@
     height:100%;
     float:left;
     background-color:#F29544;
+}
+
+#back2 {
+    width:500px;
+    height:450px;
+    position: absolute;
+    background-color:#F4D07C;
+    border-radius: 120px 200px 0px 0px;
+    top: 70px;
+    left: 70px;
+}
+
+#bubble-title {
+    width: 255px;
+    height: 255px;
+    position: absolute;
+    border-radius: 155px 90px 90px 90px;
+    background-color: #6CBFB7;
+    top: 10px;
+    left: 30px;
+    transform: rotate(15deg);
+}
+
+#bubble1 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border-radius: 155px 90px 90px 90px;
+    background-color: #F29544;
+    top: 60px;
+    left: 330px;
+    transform: rotate(-120deg);
+}
+
+#bubble2 {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 155px 90px 90px 90px;
+    background-color: #F29544;
+    top: 40px;
+    left: 300px;
+    transform: rotate(-50deg);
+}
+
+#bubble3 {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 205px 90px 90px 90px;
+    background-color: #F4D07C;
+    top: 90px;
+    left: 520px;
+    transform: rotate(-110deg);
+}
+
+#box-title {
+    position: absolute;
+    text-align: center;
+    font-size: 95px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 25px;
+    letter-spacing: normal;
+    letter-spacing: -8px;
+    text-indent: 50px;
+    line-height: 70px;
+    color: #F2f2f2;
+}
+
+#box-title-shade {
+    position: absolute;
+    text-align: center;
+    font-size: 95px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 20px;
+    top: 3px;
+    letter-spacing: -8px;
+    text-indent: 50px;
+    line-height: 70px;
+    color: #F29544;
+}
+
+#box-title-shade a {
+    text-decoration: none;
+    list-style: none;
+    color: #F29544;
+}
+
+#box-title-shade a:hover {
+    color: #F4D07C;
 }
